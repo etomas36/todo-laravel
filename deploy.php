@@ -16,7 +16,6 @@ add('writable_dirs', ['bootstrap/cache', 'storage']);
 host('172.16.221.102')
     ->set('remote_user', 'ddaw-ud4-deployer')
     ->set('ssh_multiplexing', false)
-    ->set('identityFile', 'C:\Users\sarza\.ssh\id_rsa')
     ->set('deploy_path', '/var/www/ddaw-ud4-a4/html/todo-laravel');
 
 // Hooks
