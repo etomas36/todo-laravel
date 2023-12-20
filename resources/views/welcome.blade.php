@@ -29,7 +29,7 @@
         <a href="/">Home</a>
 
         {{-- create todo --}}
-        <x-card title="EL QUE NADA TEME NADA BORRA :)">
+        <x-card title="Bebesitaaaaa">
             <form
                 action="{{ $model->exists ? route('todo.update', $model->id) : route('todo.store') }}"
                 method="POST"
