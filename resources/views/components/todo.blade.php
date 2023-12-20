@@ -7,7 +7,7 @@
             <form action="{{ route('todo.destroy', $todo->id) }}" method="POST" class="flex ml-2">
                 @csrf
                 @method('DELETE')
-                <x-button color="red" small>Beibi</x-button>
+                <x-button color="red" small>EL QUE NADA TEME NADA BORRA</x-button>
             </form>
 
             <form action="{{ route('todo.change-is-done', $todo->id) }}" method="POST" class="flex ml-2">
